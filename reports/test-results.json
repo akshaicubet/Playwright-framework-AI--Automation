@@ -1,0 +1,701 @@
+{
+  "config": {
+    "argv": [
+      "/home/c808/.nvm/versions/node/v20.20.2/bin/node",
+      "/home/c808/AI-Automation/playwright-Claude-ai-framework/node_modules/.bin/playwright",
+      "test",
+      "--list"
+    ],
+    "configFile": "/home/c808/AI-Automation/playwright-Claude-ai-framework/playwright.config.ts",
+    "rootDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/ui",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/ui",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/ui",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "mobile-chrome",
+        "name": "mobile-chrome",
+        "testDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/ui",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "api",
+        "name": "api",
+        "testDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/api",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "chromium",
+        "testDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/ui",
+        "snapshotDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/ui",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://your-app-staging.example.com",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "retain-on-failure",
+          "actionTimeout": 10000,
+          "navigationTimeout": 15000,
+          "ignoreHTTPSErrors": true,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "firefox",
+        "testDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/ui",
+        "snapshotDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/ui",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://your-app-staging.example.com",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "retain-on-failure",
+          "actionTimeout": 10000,
+          "navigationTimeout": 15000,
+          "ignoreHTTPSErrors": true,
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:157.0) Gecko/20100101 Firefox/157.0",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "firefox"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "firefox"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "webkit",
+        "testDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/ui",
+        "snapshotDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/ui",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://your-app-staging.example.com",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "retain-on-failure",
+          "actionTimeout": 10000,
+          "navigationTimeout": 15000,
+          "ignoreHTTPSErrors": true,
+          "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.2 Safari/605.1.15",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1792,
+            "height": 1120
+          },
+          "deviceScaleFactor": 2,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "webkit"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "webkit"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "mobile-chrome",
+        "testDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/ui",
+        "snapshotDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/ui",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://your-app-staging.example.com",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "retain-on-failure",
+          "actionTimeout": 10000,
+          "navigationTimeout": 15000,
+          "ignoreHTTPSErrors": true,
+          "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Mobile Safari/537.36",
+          "viewport": {
+            "width": 412,
+            "height": 839
+          },
+          "screen": {
+            "width": 412,
+            "height": 915
+          },
+          "deviceScaleFactor": 2.625,
+          "isMobile": true,
+          "hasTouch": true,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile-chrome"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "api",
+        "testDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/api",
+        "snapshotDir": "/home/c808/AI-Automation/playwright-Claude-ai-framework/tests/api",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "https://api-staging.example.com",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "video": "retain-on-failure",
+          "actionTimeout": 10000,
+          "navigationTimeout": 15000,
+          "ignoreHTTPSErrors": true
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "api"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "reports/junit-results.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "ui/example-login.spec.ts",
+      "file": "ui/example-login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login flow",
+          "file": "ui/example-login.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "user can log in with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "09e3fc573ba35363704c-3caeb830b3763402c391",
+              "file": "ui/example-login.spec.ts",
+              "line": 14,
+              "column": 7
+            },
+            {
+              "title": "shows validation error for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "09e3fc573ba35363704c-426f6928d08beb7f3a3b",
+              "file": "ui/example-login.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "checkout button uses data-testid as a stable fallback",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "09e3fc573ba35363704c-8dab771228f5616cdfe5",
+              "file": "ui/example-login.spec.ts",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "user can log in with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "09e3fc573ba35363704c-44cda82ce31dbffa5c4d",
+              "file": "ui/example-login.spec.ts",
+              "line": 14,
+              "column": 7
+            },
+            {
+              "title": "shows validation error for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "09e3fc573ba35363704c-eecb7d4cd477ba897d8d",
+              "file": "ui/example-login.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "checkout button uses data-testid as a stable fallback",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "09e3fc573ba35363704c-91e0774d303c41c43f19",
+              "file": "ui/example-login.spec.ts",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "user can log in with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "09e3fc573ba35363704c-f08c3164e35a8830c3e7",
+              "file": "ui/example-login.spec.ts",
+              "line": 14,
+              "column": 7
+            },
+            {
+              "title": "shows validation error for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "09e3fc573ba35363704c-3bf204924cd89b66b98f",
+              "file": "ui/example-login.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "checkout button uses data-testid as a stable fallback",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "09e3fc573ba35363704c-2fa49c3e96bc375ab400",
+              "file": "ui/example-login.spec.ts",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "user can log in with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "09e3fc573ba35363704c-463cf043525d5dc4af0a",
+              "file": "ui/example-login.spec.ts",
+              "line": 14,
+              "column": 7
+            },
+            {
+              "title": "shows validation error for invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "09e3fc573ba35363704c-44e1370f96f306b9c8c3",
+              "file": "ui/example-login.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "checkout button uses data-testid as a stable fallback",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "mobile-chrome",
+                  "projectName": "mobile-chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "09e3fc573ba35363704c-e4d82f82636db466ac5a",
+              "file": "ui/example-login.spec.ts",
+              "line": 38,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/example-users.api.spec.ts",
+      "file": "api/example-users.api.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Users API",
+          "file": "api/example-users.api.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET /users returns a paginated list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "513463dea457a3a2b8f0-aff0852b77ae19f69727",
+              "file": "api/example-users.api.spec.ts",
+              "line": 16,
+              "column": 7
+            },
+            {
+              "title": "POST /users creates a new user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "513463dea457a3a2b8f0-998828ec4df4ed7e17ba",
+              "file": "api/example-users.api.spec.ts",
+              "line": 25,
+              "column": 7
+            },
+            {
+              "title": "GET /users/:id returns 404 for unknown id",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "513463dea457a3a2b8f0-7a68575212c7dc7af3ef",
+              "file": "api/example-users.api.spec.ts",
+              "line": 39,
+              "column": 7
+            },
+            {
+              "title": "PATCH /users/:id updates fields partially",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "513463dea457a3a2b8f0-fa413a1aae10b746422d",
+              "file": "api/example-users.api.spec.ts",
+              "line": 44,
+              "column": 7
+            },
+            {
+              "title": "DELETE /users/:id removes the user",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "513463dea457a3a2b8f0-9553cebd0d8faf99b218",
+              "file": "api/example-users.api.spec.ts",
+              "line": 52,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-30T07:38:34.590Z",
+    "duration": 1020.6089999999999,
+    "expected": 0,
+    "skipped": 17,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

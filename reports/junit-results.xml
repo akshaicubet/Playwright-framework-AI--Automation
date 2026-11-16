@@ -1,0 +1,80 @@
+<testsuites id="" name="" tests="17" failures="0" skipped="17" errors="0" time="1.0206089999999999">
+<testsuite name="ui/example-login.spec.ts" timestamp="2026-10-30T07:38:35.609Z" hostname="chromium" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Login flow › user can log in with valid credentials" classname="ui/example-login.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login flow › shows validation error for invalid credentials" classname="ui/example-login.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login flow › checkout button uses data-testid as a stable fallback" classname="ui/example-login.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="ui/example-login.spec.ts" timestamp="2026-10-30T07:38:35.609Z" hostname="firefox" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Login flow › user can log in with valid credentials" classname="ui/example-login.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login flow › shows validation error for invalid credentials" classname="ui/example-login.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login flow › checkout button uses data-testid as a stable fallback" classname="ui/example-login.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="ui/example-login.spec.ts" timestamp="2026-10-30T07:38:35.609Z" hostname="webkit" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Login flow › user can log in with valid credentials" classname="ui/example-login.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login flow › shows validation error for invalid credentials" classname="ui/example-login.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login flow › checkout button uses data-testid as a stable fallback" classname="ui/example-login.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="ui/example-login.spec.ts" timestamp="2026-10-30T07:38:35.609Z" hostname="mobile-chrome" tests="3" failures="0" skipped="3" time="0" errors="0">
+<testcase name="Login flow › user can log in with valid credentials" classname="ui/example-login.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login flow › shows validation error for invalid credentials" classname="ui/example-login.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Login flow › checkout button uses data-testid as a stable fallback" classname="ui/example-login.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="api/example-users.api.spec.ts" timestamp="2026-10-30T07:38:35.609Z" hostname="api" tests="5" failures="0" skipped="5" time="0" errors="0">
+<testcase name="Users API › GET /users returns a paginated list" classname="api/example-users.api.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Users API › POST /users creates a new user" classname="api/example-users.api.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Users API › GET /users/:id returns 404 for unknown id" classname="api/example-users.api.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Users API › PATCH /users/:id updates fields partially" classname="api/example-users.api.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Users API › DELETE /users/:id removes the user" classname="api/example-users.api.spec.ts">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>

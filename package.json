@@ -1,0 +1,40 @@
+{
+  "name": "playwright-ai-framework",
+  "version": "1.0.0",
+  "description": "End-to-end Playwright automation framework with MCP-driven exploration, self-healing locators, API testing, and CI/CD",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:parallel": "playwright test --workers=4",
+    "test:shard1": "playwright test --shard=1/2",
+    "test:shard2": "playwright test --shard=2/2",
+    "test:ci": "playwright test --reporter=list,html,junit",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen",
+    "install:browsers": "playwright install --with-deps",
+    "healed:review": "node scripts/review-healed-locators.js",
+    "healed:clear": "node scripts/clear-healed-locators.js",
+    "lint": "eslint . --ext .ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.14.0",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.135.0",
+    "fast-levenshtein": "^3.0.0"
+  }
+}
