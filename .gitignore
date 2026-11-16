@@ -1,0 +1,50 @@
+# ---- Dependencies ----
+node_modules/
+.pnp
+.pnp.js
+
+# ---- Env / secrets (NEVER commit) ----
+.env
+.env.*
+!.env.example
+
+# ---- Playwright artifacts ----
+/test-results/
+/playwright-report/
+/playwright/.cache/
+/.playwright-mcp/
+/mcp/exploration-output/
+/reports/
+blob-report/
+*.zip
+
+# ---- Videos / screenshots / traces (generated at runtime) ----
+/videos/
+/screenshots/
+/traces/
+*.webm
+*.trace.zip
+
+# ---- Self-healing state (keep template, ignore live-generated) ----
+utils/healing/healed-locators.json.lock/
+utils/healing/healed-locators.json.*.tmp
+
+# ---- Build / TS ----
+dist/
+*.tsbuildinfo
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+logs/
+
+# ---- OS / IDE ----
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# ---- Claude Code local state ----
+.claude/settings.local.json
+.mcp.local.json

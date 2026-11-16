@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@0.0.83",
+        "--headless",
+        "--isolated",
+        "--viewport-size=1280,720",
+        "--save-trace"
+      ],
+      "env": {
+        "PLAYWRIGHT_MCP_OUTPUT_DIR": "./mcp/exploration-output"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm test*)",
+      "Bash(npx playwright test*)",
+      "Bash(npm run *)",
+      "Read(./**)",
+      "Write(./tests/**)",
+      "Edit(./tests/**)",
+      "Write(./test-cases/**)",
+      "Edit(./test-cases/**)",
+      "Edit(./utils/healing/healed-locators.json)",
+      "Grep(./**)",
+      "Glob(./**)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_type",
+      "mcp__playwright__browser_fill_form",
+      "mcp__playwright__browser_select_option",
+      "mcp__playwright__browser_press_key",
+      "mcp__playwright__browser_hover",
+      "mcp__playwright__browser_wait_for",
+      "mcp__playwright__browser_close"
+    ]
+  }
+}
